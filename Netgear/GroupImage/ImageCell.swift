@@ -64,7 +64,7 @@ class ImageCell: UICollectionViewCell {
         bearImageView.leadingAnchor.constraint(equalTo: topImageContainerView.leadingAnchor).isActive = true
         bearImageView.trailingAnchor.constraint(equalTo: topImageContainerView.trailingAnchor).isActive = true
         bearImageView.widthAnchor.constraint(equalTo: topImageContainerView.widthAnchor).isActive = true
-        bearImageView.heightAnchor.constraint(equalTo: topImageContainerView.heightAnchor, multiplier: 9.0/16.0).isActive = true
+        bearImageView.heightAnchor.constraint(equalTo: bearImageView.widthAnchor, multiplier: 9.0/16.0).isActive = true
         
         
         addSubview(descriptionTextView)
